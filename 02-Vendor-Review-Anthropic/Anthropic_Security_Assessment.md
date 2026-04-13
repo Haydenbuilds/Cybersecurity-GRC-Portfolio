@@ -47,4 +47,13 @@ I recommend approval for enterprise deployment, subject to the following guardra
 * **Log Ingestion:** Export Anthropic audit logs to our **SIEM (Splunk/Sentinel)** for proactive threat hunting and monitoring of "Shadow AI" activity.
 
 ---
+## Supporting Evidence (Artifacts)
+All reviewed documents are stored in the local repository for audit traceability:
+
+1. **SOC 3 Report:** [View PDF](./Evidence/[Anthropic]_2025_Type_2_SOC_3_Report.pdf)
+2. **ISO 27001 Certificate:** [View PDF](./Evidence/[Anthropic]_ISO_27001_Certificate_(2025).pdf)
+3. **Data Processing Addendum:** [View PDF](./Evidence/[Anthropic]_DPA_2025.pdf)
+4. **Trust Center Snapshot:** [View Image](./Evidence/Trust_Center_Snapshot.png)
+
+---
 **Analyst Signature:** *Hayden* *Cybersecurity & GRC Specialist*

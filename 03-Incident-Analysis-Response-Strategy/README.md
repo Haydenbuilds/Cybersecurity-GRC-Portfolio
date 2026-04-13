@@ -14,5 +14,8 @@ This project provides a comprehensive post-mortem analysis of the 2023 ransomwar
 - **Strategic Recommendations:** Developed a remediation roadmap prioritizing **FIDO2-based MFA** and enhanced Security Awareness Training (SAT) for high-privilege support roles.
 
 ## Deliverables
-- **[Incident_Analysis_Report.md](./Incident_Analysis_Report.md):** A detailed technical breakdown of the breach and control failures.
-- **[Incident_Timeline_Visual.png](./Incident_Timeline_Visual.png):** A high-level diagram illustrating the progression of the attack.
+
+- **[Incident_Analysis_Report.md](./Incident_Analysis_Report.md)**: A detailed technical breakdown of the breach and control failures.
+- **[Incident_Timeline.md](./Incident_Timeline.md)**: A step-by-step reconstruction of the 10-minute attack.
+- **[Financial_Impact_Evidence.png](./Artifacts/Financial_Impact_Evidence.png)**: Visual evidence of the $100M loss from official filings.
+- **[MGM_SEC_8K_Oct2023.pdf](./Artifacts/MGM_SEC_8K_Oct2023.pdf)**: The primary source document (SEC Form 8-K) used for this analysis.

@@ -41,6 +41,12 @@ To prevent a similar "identity-based" breach, the following security controls ar
 * **Control:** Strictly isolate Operational Technology (hotel locks, slot machines) from corporate IT environments.
 * **Reasoning:** A compromise in the employee identity system should not provide lateral access to physical building controls or gaming floors.
 
+## Lessons Learned (Post-Incident Activity)
+Based on the NIST SP 800-61 Rev. 2 lifecycle, the following improvements are prioritized:
+* **Detection & Analysis:** Implement Behavior-based Analytics to flag when a "Super Admin" account is created or modified from an unusual IP.
+* **Containment:** Develop a "Kill Switch" protocol for the Identity Provider (Okta) to session-log out all users if a tenant compromise is suspected.
+* **Recovery:** Review and test the immutability of ESXi backups to ensure rapid restoration without paying a ransom.
+
 ---
 **Analyst:** [Hayden]  
 **Date:** April 13, 2026
